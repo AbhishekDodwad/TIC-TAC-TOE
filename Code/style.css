@@ -1,0 +1,81 @@
+* {
+  margin:0;
+  padding: 0;
+}
+
+body{
+    background-color:aquamarine;
+    text-align: center;
+    background-image: url("playful-tic-tac-toe-free-vector.jpg");
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.container{
+    padding: 100px;
+ 
+}
+h1{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 50px;
+  color: #ed6c09;
+  margin-top: 30px;
+}
+.game{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    width: 300px;
+    margin:auto;
+    
+    
+}
+.box{
+   height: 50px;
+  padding: 50px;
+   width: 50px;
+  border-radius: 10px;
+  box-shadow:0 0 1rem rgba(0, 0, 0, 0.2) ;
+  font-size: 30px;
+  text-align: center;
+  text-indent: -5px;
+  background-color: #ffffc7;
+
+   
+}
+#reset{
+  padding: 10px;
+  color:black;
+  background-color:#c7a0a0;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  font-size: 15px;
+  font-variant:small-caps;
+  
+  
+}
+.msg-container{
+  height: 30px;
+}
+
+#new-btn{
+  padding: 10px;
+  color:black;
+  background-color:#c7a0a0;
+  border-radius: 10px;
+  margin-bottom: px;
+  font-size: 15px;
+  font-variant:small-caps;
+
+}
+
+.hide{
+  display: none;
+}
+#msg{
+  margin: 20px;
+  font-size:40px;
+  align-items: center;
+  color: #ffffff;
+
+}
